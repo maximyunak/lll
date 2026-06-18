@@ -1,7 +1,6 @@
-/* ===== Dark Souls — Путь Избранного Нежити ===== */
-
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap');
-
+/*@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600;700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 :root {
     --bg-dark: #0b0905;
     --bg-card: #141008;
@@ -19,8 +18,8 @@
     --border-light: #5a4e3a;
     --shadow: rgba(0, 0, 0, 0.7);
     --glow-ember: rgba(212, 90, 42, 0.3);
-    --font-heading: 'Cinzel', serif;
-    --font-body: 'Crimson Pro', serif;
+    --font-heading: 'Lora', serif;
+    --font-body: 'Comfortaa', serif;
     --header-height: 72px;
     --transition: 0.3s ease;
 }
@@ -191,7 +190,7 @@ h3 {
     z-index: 1000;
     height: var(--header-height);
     /*background: rgba(11, 9, 5, 0.92);*/
-    /*backdrop-filter: blur(5px);*/
+    backdrop-filter: blur(5px);
     background: transparent;
     /*border-bottom: 1px solid var(--border);*/
     transition: background var(--transition);
@@ -795,7 +794,7 @@ h3 {
     position: absolute;
     top: 16px;
     left: 16px;
-    font-family: 'Cinzel Decorative', serif;
+    font-family: var(--font-body);
     font-size: 3rem;
     line-height: 1;
     color: rgba(196, 133, 10, 0.3);
