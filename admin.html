@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Souls: Путь Избранного Нежити</title>
+    <meta name="description"
+          content="Пройди опасный мир Лордрана. Сражайся с нежитью, исследуй руины и победи Гвина, Повелителя Пепла.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">
+            <img src="./images/logohoriz.svg" alt="logo">
+        </a>
+
+        <button class="burger" aria-label="Открыть меню">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link">О игре</a></li>
+                <li><a href="#stages" class="nav-link">Этапы</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+            </ul>
+            <div class="nav-auth">
+                <a href="login.html" class="btn btn-secondary">Вход</a>
+                <a href="register.html" class="btn btn-primary">Регистрация</a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main class="profile-page admin-page">
+
+    <div class="container">
+
+        <h1 class="section-title">Панель администратора</h1>
+
+        <div class="section-divider">
+            <span>◆</span>
+        </div>
+
+        <!-- Статистика -->
+        <div class="admin-stats">
+
+            <div class="stat-item">
+                <span class="stat-number">124</span>
+                <span class="stat-label">Пользователей</span>
+            </div>
+
+            <div class="stat-item">
+                <span class="stat-number">18</span>
+                <span class="stat-label">Наград</span>
+            </div>
+
+            <div class="stat-item">
+                <span class="stat-number">357</span>
+                <span class="stat-label">Получено наград</span>
+            </div>
+
+            <div class="stat-item">
+                <span class="stat-number">642</span>
+                <span class="stat-label">Пройдено этапов</span>
+            </div>
+
+        </div>
+
+        <!-- Награды -->
+        <section class="admin-section">
+
+            <div class="admin-section-header">
+                <h2>Управление наградами</h2>
+
+                <button class="btn btn-primary">
+                    Добавить награду
+                </button>
+            </div>
+
+            <div class="admin-table-wrapper">
+
+                <table class="admin-table">
+
+                    <thead>
+                    <tr>
+                        <th>Изображение</th>
+                        <th>Этап</th>
+                        <th>Действия</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td>
+                            <img src="./images/rewards/reward1.png"
+                                 alt="Северное Прибежище Нежити"
+                                 class="reward-thumb">
+                        </td>
+
+
+                        <td>Северное Прибежище Нежити</td>
+
+                        <td>
+                            <div class="table-actions">
+                                <button class="btn btn-secondary">Изменить</button>
+                                <button class="btn btn-primary">Удалить</button>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="./images/rewards/reward2.png"
+                                 alt="Город Нежити"
+                                 class="reward-thumb">
+                        </td>
+
+
+                        <td>Город Нежити</td>
+
+                        <td>
+                            <div class="table-actions">
+                                <button class="btn btn-secondary">Изменить</button>
+                                <button class="btn btn-primary">Удалить</button>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="./images/rewards/reward3.png"
+                                 alt="Приход Нежити"
+                                 class="reward-thumb">
+                        </td>
+
+
+                        <td>Приход Нежити</td>
+
+                        <td>
+                            <div class="table-actions">
+                                <button class="btn btn-secondary">Изменить</button>
+                                <button class="btn btn-primary">Удалить</button>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="./images/rewards/reward4.png"
+                                 alt="Крепость Сена"
+                                 class="reward-thumb">
+                        </td>
+
+
+                        <td>Крепость Сена</td>
+
+                        <td>
+                            <div class="table-actions">
+                                <button class="btn btn-secondary">Изменить</button>
+                                <button class="btn btn-primary">Удалить</button>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="./images/rewards/reward5.png"
+                                 alt="Анор Лондо"
+                                 class="reward-thumb">
+                        </td>
+
+
+                        <td>Анор Лондо</td>
+
+                        <td>
+                            <div class="table-actions">
+                                <button class="btn btn-secondary">Изменить</button>
+                                <button class="btn btn-primary">Удалить</button>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="./images/rewards/reward6.png"
+                                 alt="Горнило Первого Пламени"
+                                 class="reward-thumb">
+                        </td>
+
+
+                        <td>Горнило Первого Пламени</td>
+
+                        <td>
+                            <div class="table-actions">
+                                <button class="btn btn-secondary">Изменить</button>
+                                <button class="btn btn-primary">Удалить</button>
+                            </div>
+                        </td>
+                    </tr>
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+        <!-- Пользователи -->
+        <section class="admin-section">
+
+            <h2>Зарегистрированные игроки</h2>
+
+            <div class="admin-table-wrapper">
+
+                <table class="admin-table">
+
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Никнейм</th>
+                        <th>Email</th>
+                        <th>Этапов</th>
+                        <th>Наград</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+
+                    <tr>
+                        <td>1</td>
+                        <td>ChosenUndead</td>
+                        <td>user@mail.com</td>
+                        <td>4/6</td>
+                        <td>12</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>LordranHero</td>
+                        <td>hero@mail.com</td>
+                        <td>2/6</td>
+                        <td>6</td>
+                    </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</main>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="./images/logohoriz.svg" alt="logo">
+                </a>
+                <p>Путь Избранного Нежити — мрачное фэнтези-приключение в мире Лордрана. Пройди все испытания и реши
+                    судьбу Первого Пламени.</p>
+            </div>
+
+            <div>
+                <h4 class="footer-heading">Навигация</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">О игре</a></li>
+                    <li><a href="#stages">Этапы</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="login.html">Вход</a></li>
+                    <li><a href="register.html">Регистрация</a></li>
+                    <li><a href="#privacy-policy">Политика конфиденциальности</a></li>
+                    <li><a href="#data-processing">Согласие на обработку данных</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="footer-heading">Локации</h4>
+                <ul class="footer-links">
+                    <li><a href="#stages">Северное Прибежище</a></li>
+                    <li><a href="#stages">Город Нежити</a></li>
+                    <li><a href="#stages">Анор Лондо</a></li>
+                    <li><a href="#stages">Горнило Пламени</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Dark Souls: Путь Избранного Нежити. Учебный проект.</p>
+            <p>Юнак Максим 326веб</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/stages.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
