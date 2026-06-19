@@ -39,119 +39,72 @@
     </div>
 </header>
 
-<section class="profile-page">
-    <div class="container">
+    <main class="admin-page">
 
-        <div class="profile-card">
+        <div class="container">
 
+            <section class="profile-edit">
 
-            <div class="profile-avatar">
-                <img src="./images/solaire.webp" alt="avatar">
-            </div>
+                <h1 class="section-title">
+                    Редактирование профиля
+                </h1>
 
-            <div class="profile-info">
-                <span class="profile-rank">Избранный Нежить</span>
-                <h1 class="profile-name">Максим Юнак</h1>
-
-                <div class="profile-meta">
-                    <p>Дата регистрации: 12.01.2026</p>
-                    <p>Email: example@mail.com</p>
+                <div class="section-divider">
+                    <span>◆</span>
                 </div>
-            </div>
 
-            <div class="edit-profile btn">
-                <a href="profile-edit.html"><img src="./images/edit.svg" alt="edit"></a>
-            </div>
-        </div>
+                <div class="profile-edit-card">
 
-        <div class="profile-stats">
+                    <div class="avatar-editor">
 
+                        <img src="./images/solaire.webp"
+                             alt="Аватар"
+                             class="profile-avatar-preview">
 
-            <div class="stat-item">
-                <span class="stat-number">4/6</span>
-                <span class="stat-label">Этапов</span>
-            </div>
+                        <label class="btn btn-secondary">
+                            Выбрать аватар
+                            <input type="file"
+                                   accept="image/png,image/jpeg,image/webp"
+                                   hidden>
+                        </label>
 
-            <div class="stat-item">
-                <span class="stat-number">12</span>
-                <span class="stat-label">Наград</span>
-            </div>
-        </div>
-        
+                    </div>
 
+                    <form class="profile-edit-form">
 
-    </div>
-</section>
+                        <div class="form-group">
+                            <label>Никнейм</label>
 
-<section class="awards-section">
+                            <input type="text"
+                                   value="ChosenUndead"
+                                   placeholder="Введите никнейм">
+                        </div>
 
-    <div class="container">
+                        <div class="form-actions">
 
-        <h2 class="section-title">Коллекция наград</h2>
+                            <button type="submit"
+                                    class="btn btn-primary">
+                                Сохранить изменения
+                            </button>
 
-        <div class="section-divider">
-            <span>◆</span>
-        </div>
+                            <a href="profile.html"
+                               class="btn btn-secondary">
+                                Отмена
+                            </a>
 
-        <p class="section-subtitle">
-            Трофеи и артефакты, добытые во время путешествия по Лордрану.
-        </p>
+                        </div>
 
-        <div class="awards-grid">
+                    </form>
 
-            <div class="award-card">
+                </div>
 
-                <img src="./images/rewards/reward1.png" alt="">
-                <button class="btn btn-primary btn-full">
-                    Скачать
-                </button>
-            </div>
-
-            <div class="award-card">
-
-                <img src="./images/rewards/reward2.png" alt="">
-                <button class="btn btn-primary btn-full">
-                    Скачать
-                </button>
-            </div>
-
-            <div class="award-card">
-
-                <img src="./images/rewards/reward3.png" alt="">
-                <button class="btn btn-primary btn-full">
-                    Скачать
-                </button>
-            </div>
-
-            <div class="award-card">
-
-                <img src="./images/rewards/reward4.png" alt="">
-                <button class="btn btn-primary btn-full">
-                    Скачать
-                </button>
-            </div>
-
-            <div class="award-card">
-
-                <img src="./images/rewards/reward5.png" alt="">
-                <button class="btn btn-primary btn-full">
-                    Скачать
-                </button>
-            </div>
-
-            <div class="award-card">
-
-                <img src="./images/rewards/reward6.png" alt="">
-                <button class="btn btn-primary btn-full">
-                    Скачать
-                </button>
-            </div>
+            </section>
 
         </div>
 
-    </div>
+    </main>
 
-</section>
+
 
 <!-- Footer -->
 <footer class="footer">

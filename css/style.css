@@ -1643,6 +1643,7 @@ var(--bg-dark);
 
 .profile-card {
     display: flex;
+    position: relative;
     gap: 40px;
     align-items: center;
 
@@ -1819,4 +1820,150 @@ var(--bg-dark);
 
 td:last-child {
     width: 100px;
+}
+
+.admin-form-section {
+    margin-bottom: 80px;
+}
+
+.admin-form-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 40px;
+}
+
+.admin-form-card h2 {
+    margin-bottom: 30px;
+}
+
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group label {
+    color: var(--accent-gold);
+    font-family: var(--font-heading);
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    background: rgba(255,255,255,.03);
+    border: 1px solid var(--border);
+    color: var(--text-light);
+    padding: 16px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-actions {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.profile-edit {
+}
+
+.profile-edit-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 50px;
+
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.avatar-editor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-avatar-preview {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+
+    border-radius: 50%;
+    border: 2px solid var(--accent-gold);
+
+    box-shadow:
+            0 0 25px rgba(196,133,10,.25);
+}
+
+.profile-edit-form {
+    flex: 1;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-group label {
+    color: var(--accent-gold);
+    font-family: var(--font-heading);
+}
+
+.form-group input {
+    background: rgba(255,255,255,.03);
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+
+    padding: 16px 20px;
+    font-size: 1rem;
+}
+
+.form-actions {
+    margin-top: 30px;
+
+    display: flex;
+    gap: 16px;
+}
+
+@media (max-width: 768px) {
+
+    .profile-edit-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-edit-form {
+        width: 100%;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+
+}
+
+.edit-profile {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    padding: 8px;
+}
+
+@media (max-width: 475px) {
+    .edit-profile {
+        right:20px;
+        top: 20px;
+        padding: 4px;
+    }
 }
