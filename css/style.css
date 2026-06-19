@@ -1776,6 +1776,8 @@ var(--bg-dark);
     border-collapse: collapse;
     background: var(--bg-card);
     border: 1px solid var(--border);
+    overflow-x: auto;
+    display: block;
 }
 
 .admin-table th,
